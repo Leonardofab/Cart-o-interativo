@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+main{
+    background-color: blue;
+    max-width: 600px;
+    margin: auto;
+    border: solid  black;
+    border-radius: 10px;
+}
+header{
+    background: url(/image/Carro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    /* width: 80%; */
+    margin: auto;
+}
+section{
+    /* max-width: 80%; */
+    padding: 20px 0; 
+    /* border: solid; */
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+}
+h1{
+    /* border: solid; */
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+h4{
+    text-shadow: 10px 10px 10px black;
+}
+.botoes{
+    list-style: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* border: solid; */
+    /* margin: 15px; */
+    /* padding: 30px; */
+}
+li{
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.bt{
+    background-image:linear-gradient(to right, blue, white);
+    width: 80%;
+    border:  0.02px;
+    padding: 5px;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+.bt:hover{
+    margin-left: 5px;
+    scale:1.05;
+    border: solid 0.2px;
+    
+}
+img{
+    background-color: white;
+    margin-right: 10px;
+    /* border: solid; */
+    width: 40px;
+    border-radius: 50%;
+    transition: all 0.7s;
+}
+img:hover{
+    scale:1.05;
+}
+a{
+    text-decoration: none;
+}
